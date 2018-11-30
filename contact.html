@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title> Contacts </title>
+<link href="css/main.css" rel="stylesheet" type="text/css" media="screen">
+</head>
+
+<body>
+<!-- Top Bar -->
+    <section id="topBar">
+    <h3 class="hidden">TopBar</h3>
+    <div id="socialBox">
+    <a href="https://www.twitter.com">
+        <img src="images/twitter_icon.png" alt="twitter logo" width="15" height="15"> 
+    </a>
+    <a href="https://www.facebook.com">
+        <img src="images/facebook_icon.png" alt="twitter logo" width="15" height="15">
+    </a>
+    <a href="https://www.youtube.com">
+        <img src="images/youtube_icon.png" alt="twitter logo" width="15" height="15">
+    </a>
+    </div> <!-- end social box -->
+    </section>
+<!-- SITE CONTAINER starts -->
+    <div id="siteContainer">
+<!-- HEADER starts -->
+        <header class="mainHeader">
+                <img src="images/logo_header.png" alt="website logo" id="logo">
+
+            <nav class="mainNav">
+                <h2 class="hidden"> Main Navigation</h2>
+                <ul id="navList">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav><!--end mainNav-->
+        </header><!--end mainHeader-->
+
+<!-- START CONTENT -->
+        <section id="productImages">
+        <h3 class="hidden">Teacher Images and Contact Form</h3>
+<!-- Teacher section -->
+            <section class="productImg">
+                <img src="images/tien_teacher_pic.jpg" alt="Teacher" width="200" height="200">
+                <h4>Tien Le</h4>
+                <p> Teaching Art at WS University <br>
+                    Phone: (+1) 548 388 3222 <br>
+                    Email: letien@gmail.com 
+                </p>
+            </section><!--end productImg1-->
+
+
+            <section class="productImg">
+                <img src="images/mike_teacher_2.jpg" alt="Teacher" width="200" height="200">
+                <h4>Teacher 2</h4>
+                <p> Teaching Art at WS University <br>
+                    Phone: (+1) 548 388 3222 <br>
+                    Email: @gmail.com 
+                <p>
+            </section><!--end productImg2-->
+
+            <section class="productImg">
+                <img src="images/teacher_3.jpg" alt="Teacher" width="200" height="200">
+                <h4>Teacher 3</h4>
+                 <p> Teaching Art at WS University <br>
+                    Phone: (+1) 548 388 3222 <br>
+                    Email: letien@gmail.com 
+                 <p>
+            </section><!--end productImg3-->
+        </section><!--end productImages-->
+
+<!-- contact area -->
+     <section id="contactForm">  
+        <h2> Contact Us </h2>  
+        <section id="contentAreaBig">
+        <h3 class="hidden">Contact Form</h3>          
+         <div id="customerInfo">
+            <form method="post" action="form.php">
+                <label>Name</label>
+                <br>
+                <input type="text">
+                <br>
+                <label>Email</label>
+                <br>
+                <input type="email">
+                <br>
+                <label>Phone</label>
+                <br>
+                <input type="tel">
+                <br>
+                <label>Address</label>
+                <br>
+                <input type="text">
+            </form>
+        </div>
+        <div id="customerMess">
+            <form>            
+                <label> Leave your message</label>
+                <br>
+                <br>
+                <textarea id="inputBox" cols="20" rows="6"></textarea>
+                <br>
+                <input type="submit" value="Send" class="formButton">    
+            </form> 
+        </div>     
+        <div id="mapArea">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2918.4988726639112!2d-81.2333778841512!3d42.988828879149814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882ef3e4deadfc43%3A0xaf540fdfe960f71b!2sB13!5e0!3m2!1sen!2sca!4v1542935122932" width="291" height="218" frameborder="0" style="border:0" ></iframe>
+        </div>        
+        </section>
+    </section>
+
+<!-- FOOTER starts here -->
+        <footer id="mainFooter">
+            <div id="footerNav">
+                <img src="images/logo_footer.png" alt="website logo" id="logoFooter">
+                <h2 class="hidden"> Footer navigation</h2>
+                <ul >
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul><!--end mainNav-->
+            </div><!--end FooterNav-->
+            
+        </footer><!--end mainFooter-->
+    </div><!--end siteContainer-->
+<script src="js/main.js"></script>    
+</body>
+</html>

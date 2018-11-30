@@ -39,8 +39,6 @@ a:hover, a:active
 /*TOP BAR SECTION*/
 #topBar
 {
-	display: flex;
-	flex-direction: row;
 	top: 0;
 	width: 100%;
 	background-color: #114b56;
@@ -50,7 +48,8 @@ a:hover, a:active
 #socialBox
 {
 	display:flex; 
-	justify-content: flex-start;
+	justify-content: flex-end;
+	padding-right: 50px;
 }
 
 #socialBox a
@@ -344,9 +343,8 @@ h5
 
 .contentCon p 
 {
-	font-size: 20px;
-	font-family: Arial;
-	color: #06353d;
+	font-size: 18px;
+	padding: 1px;
 
 }
 
@@ -398,25 +396,28 @@ h5
 
 .content1 
 {
+	margin-right: auto;
 	width: 450px;
-	height: 1000px;
+	height: auto;
 	background-color: #b0d9e2;
 	border-style: dotted;
 	border-width:3px;
 	border-color: #06353d;
 	border-radius: 12px;
+	padding-bottom: 10px;
 }
 
 .content2 
 {
 	margin-left: auto;
 	width: 450px;
-	height: 1000px;
+	height: auto;
 	background-color: #b0d9e2;
 	border-style: dotted;
 	border-width:3px;
 	border-color: #06353d;
 	border-radius: 12px;
+	padding-bottom: 10px;
 }
 
 /*CONTACT FORM PAGE AND MAP*/
@@ -531,6 +532,7 @@ input
 	border-radius: 10px;
 	justify-content: space-evenly;
 	flex-direction: row;
+	padding-bottom: 15px;
 }
 
 .postImg
@@ -577,6 +579,7 @@ input
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
+	padding-bottom: 10px;
 }
 
 .PPsection h3
